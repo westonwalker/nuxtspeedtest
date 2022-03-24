@@ -1,21 +1,5 @@
 <template>
   <div>
-    <!--
-  This example requires Tailwind CSS v2.0+
-
-  This example requires some changes to your config:
-
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-    -->
     <div class="bg-white">
       <Header />
       <main>
@@ -575,5 +559,15 @@
 <script>
 export default {
   name: "IndexPage",
+  head: {
+    title: 'Speed test - Home Page',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'This is a speed test for nuxtjs'
+      }
+    ]
+  }
 }
 </script>
