@@ -7,7 +7,7 @@
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <a href="#">
             <span class="sr-only">Workflow</span>
-            <img
+            <nuxt-img
               class="h-8 w-auto sm:h-10"
               src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
               alt
@@ -73,7 +73,7 @@
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
               <div>
-                <img
+                <nuxt-img
                   class="h-8 w-auto"
                   src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
                   alt="Workflow"

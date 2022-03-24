@@ -9,9 +9,9 @@
           <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
               <div class="absolute inset-0">
-                <img
+                <nuxt-img
                   class="h-full w-full object-cover"
-                  src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
+                  src="/peopleworking.png"
                   alt="People working on laptops"
                 />
                 <div
@@ -46,21 +46,21 @@
             >Trusted by over 5 very average small businesses</p>
             <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
               <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img
+                <nuxt-img
                   class="h-12"
                   src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
                   alt="Tuple"
                 />
               </div>
               <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img
+                <nuxt-img
                   class="h-12"
                   src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
                   alt="Mirage"
                 />
               </div>
               <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img
+                <nuxt-img
                   class="h-12"
                   src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
                   alt="StaticKit"
@@ -69,7 +69,7 @@
               <div
                 class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1"
               >
-                <img
+                <nuxt-img
                   class="h-12"
                   src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
                   alt="Transistor"
@@ -78,7 +78,7 @@
               <div
                 class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1"
               >
-                <img
+                <nuxt-img
                   class="h-12"
                   src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
                   alt="Workcation"
@@ -142,7 +142,7 @@
                     <footer class="mt-3">
                       <div class="flex items-center space-x-3">
                         <div class="flex-shrink-0">
-                          <img
+                          <nuxt-img
                             class="h-6 w-6 rounded-full"
                             src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                             alt
@@ -158,7 +158,7 @@
               </div>
               <div class="mt-12 sm:mt-16 lg:mt-0">
                 <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <img
+                  <nuxt-img
                     class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
                     alt="Inbox user interface"
@@ -210,7 +210,7 @@
               </div>
               <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
                 <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <img
+                  <nuxt-img
                     class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                     src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
                     alt="Customer profile user interface"
@@ -491,7 +491,7 @@
           <div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
             <div class="h-full w-full xl:grid xl:grid-cols-2">
               <div class="h-full xl:relative xl:col-start-2">
-                <img
+                <nuxt-img
                   class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
                   src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
                   alt="People working on laptops"
