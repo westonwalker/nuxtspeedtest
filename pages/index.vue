@@ -13,6 +13,9 @@
                   class="h-full w-full object-cover"
                   src="/peopleworking.png"
                   alt="People working on laptops"
+                  sizes="sm:100vw md:100vw lg:90vw"
+                  quality="80"
+                  format="webp"
                 />
                 <div
                   class="absolute inset-0 bg-gradient-to-r from-purple-800 to-indigo-700 mix-blend-multiply"
