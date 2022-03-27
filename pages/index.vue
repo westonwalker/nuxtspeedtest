@@ -1,40 +1,49 @@
 <template>
   <div>
     <div class="bg-white">
-      <Header />
       <main>
         <!-- Hero section -->
         <div class="relative">
           <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
-          <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+          <div class="max-w-[85rem] mx-auto sm:px-6 lg:px-8">
+            <div class="relative shadow-xl sm:rounded-3xl sm:overflow-hidden">
               <div class="absolute inset-0">
-                <nuxt-img
+                <!-- <nuxt-img
                   class="h-full w-full object-cover"
                   src="/peopleworking.png"
                   alt="People working on laptops"
                   sizes="sm:100vw md:100vw lg:90vw"
                   quality="80"
                   format="webp"
+                />-->
+                <nuxt-img
+                  class="h-full w-full object-cover"
+                  src="/radiant-gradient-3.svg"
+                  alt="People working on laptops"
                 />
-                <div
-                  class="absolute inset-0 bg-gradient-to-r from-purple-800 to-indigo-700 mix-blend-multiply"
-                ></div>
               </div>
-              <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                <h1
-                  class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl"
-                >
-                  <span class="block text-white">Take control of your</span>
-                  <span class="block text-indigo-200">customer support</span>
-                </h1>
-                <p
-                  class="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl"
-                >Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-                <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-                  <div
-                    class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5"
-                  ></div>
+              <div class="relative inline-flex pl-4sm:pl-16 lg:pl-24 items-center">
+                <div class="w-1/2 h-full pr-12">
+                  <h1 class="text-left text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+                    <span
+                      class="block text-white"
+                      style="text-shadow: 1px 1px black"
+                    >Get Your Business Website for $0 Upfront</span>
+                  </h1>
+                  <p
+                    class="mt-6 max-w-lg mx-auto text-left text-2xl text-white sm:max-w-3xl leading-relaxed"
+                    style="text-shadow: 1px 1px black"
+                  >Forget the page builders and WordPress - We deliver hand-coded websites with blazing speeds starting at $200/mo.</p>
+                </div>
+                <div class="w-1/2">
+                  <nuxt-img
+                    class="h-full w-full object-cover"
+                    src="/hand-3.png"
+                    alt="People working on laptops"
+                    sizes="sm:100vw md:100vw lg:90vw"
+                    quality="80"
+                    format="webp"
+                  />
                 </div>
               </div>
             </div>
@@ -145,7 +154,7 @@
                     <footer class="mt-3">
                       <div class="flex items-center space-x-3">
                         <div class="flex-shrink-0">
-                          <nuxt-img
+                          <img
                             class="h-6 w-6 rounded-full"
                             src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                             alt
@@ -161,7 +170,7 @@
               </div>
               <div class="mt-12 sm:mt-16 lg:mt-0">
                 <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <nuxt-img
+                  <img
                     class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
                     alt="Inbox user interface"
@@ -213,7 +222,7 @@
               </div>
               <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
                 <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <nuxt-img
+                  <img
                     class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                     src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
                     alt="Customer profile user interface"
@@ -554,7 +563,6 @@
           </div>
         </div>
       </main>
-      <Footer />
     </div>
   </div>
 </template>

@@ -7,11 +7,7 @@
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <a href="#">
             <span class="sr-only">Workflow</span>
-            <nuxt-img
-              class="h-8 w-auto sm:h-10"
-              src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
-              alt
-            />
+            <nuxt-img class="h-8 w-auto sm:h-10" src="/logo.svg" alt />
           </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">

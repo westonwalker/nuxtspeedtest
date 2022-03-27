@@ -1,5 +1,9 @@
 <template>
-  <div class="mx-auto relative">
-    <Nuxt />
+  <div>
+    <Header />
+    <div class="mx-auto relative">
+      <Nuxt />
+    </div>
+    <Footer />
   </div>
 </template>
