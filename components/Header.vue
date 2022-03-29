@@ -19,14 +19,12 @@
           >
             <span class="sr-only">Open menu</span>
             <!-- Heroicon name: outline/menu -->
-            <svg
-              class="h-6 w-6"
+            <svg class="h-6 w-6"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              aria-hidden="true"
-            >
+              aria-hidden="true">
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -37,22 +35,14 @@
           </button>
         </div>
         <nav class="hidden md:flex space-x-10">
-          <NuxtLink to="#" class="font-bold text-base text-black tracking-wide border-b-4 hover:border-black border-transparent">Services</NuxtLink>
-          <NuxtLink to="#" class="font-bold text-base text-black tracking-wide border-b-4 hover:border-black border-transparent">Latest Projects</NuxtLink>
-          <NuxtLink to="#" class="text-base font-bold text-black tracking-wide border-b-4 hover:border-black border-transparent">Pricing</NuxtLink>
-          <NuxtLink to="#" class="text-base font-bold text-black tracking-wide border-b-4 hover:border-black border-transparent">FAQs</NuxtLink>
+          <NuxtLink to="#" class="font-bold text-base text-black border-b-4 hover:border-black border-transparent">Services</NuxtLink>
+          <NuxtLink to="#" class="font-bold text-base text-black border-b-4 hover:border-black border-transparent">Latest Projects</NuxtLink>
+          <NuxtLink to="#" class="font-bold text-base text-black border-b-4 hover:border-black border-transparent">Pricing</NuxtLink>
+          <NuxtLink to="#" class="font-bold text-base text-black border-b-4 hover:border-black border-transparent">FAQs</NuxtLink>
         </nav>
       </div>
-
       <!--
         Mobile menu, show/hide based on mobile menu state.
-
-        Entering: "duration-200 ease-out"
-          From: "opacity-0 scale-95"
-          To: "opacity-100 scale-100"
-        Leaving: "duration-100 ease-in"
-          From: "opacity-100 scale-100"
-          To: "opacity-0 scale-95"
       -->
       <div
         v-if="showMobileMenu"
@@ -99,15 +89,21 @@
           </div>
           <div class="py-6 px-5">
             <div class="grid grid-cols-2 gap-4">
-              <NuxtLink to="/" class="text-base font-medium text-gray-900 hover:text-gray-700">Home</NuxtLink>
+              <NuxtLink
+                to="/"
+                class="text-base font-medium text-gray-900 hover:text-gray-700"
+                >Home</NuxtLink
+              >
               <NuxtLink
                 to="/pricing"
                 class="text-base font-medium text-gray-900 hover:text-gray-700"
-              >Pricing</NuxtLink>
+                >Pricing</NuxtLink
+              >
               <NuxtLink
                 to="/contact"
                 class="text-base font-medium text-gray-900 hover:text-gray-700"
-              >Contact</NuxtLink>
+                >Contact</NuxtLink
+              >
             </div>
           </div>
         </div>
@@ -120,8 +116,8 @@
 export default {
   data() {
     return {
-      showMobileMenu: false
-    }
+      showMobileMenu: false,
+    };
   },
-}
+};
 </script>
