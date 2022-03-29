@@ -148,7 +148,7 @@
               </p>
             </div>
             <div class="pt-10 relative lg:grid lg:grid-cols-7">
-              <div class="max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
+              <div class="md:max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
                 <div class="relative z-10 rounded-lg shadow-2xl">
                   <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
                     <div>
