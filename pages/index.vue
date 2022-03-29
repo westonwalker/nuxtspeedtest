@@ -10,6 +10,11 @@
           quality="80"
           format="webp"
         />-->
+        <!--
+        #A2ECEF
+
+        #FDF6B3
+        -->
         <!-- Hero section -->
         <section class="relative">
           <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
@@ -67,6 +72,68 @@
             </HeaderTwo>
             <div class="text-center text-2xl leading-relaxed mt-6 text-gray-800">
               We specialize in website design and development for small businesses anywhere in the US. Our plans start at $200 a month. No minimum contract. You own your domain and content. You are free to cancel anytime with no surprising fees or hassle.
+            </div>
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-12">
+              <FeatureCheckmark title="Performance" description="A common issue with DIY website builders is that they are incredibly slow. Users leave a site if it takes longer than 3 seconds to load. Your website will score at least a 95 rating on Google’s web speed scores.">
+                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
+                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                  </svg>
+                </span>
+              </FeatureCheckmark>
+              <FeatureCheckmark title="Responsive" description="60% of web traffic is on mobile devices, so it is important for your site to look nice on all screen sizes. Your website will fit all device screen sizes so your clients can access it anywhere.">
+                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
+                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                </span>
+              </FeatureCheckmark>
+              <FeatureCheckmark title="SEO" description="Search engine optimization (SEO) is a set of best practices to help search engines (Google) rank a website for relavant searches. Your website will follow all of the modern SEO best practices.">
+                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
+                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </span>
+              </FeatureCheckmark>
+            </div>
+            <div class="pt-12 text-center">
+              <ButtonDark>
+                See Plans
+              </ButtonDark>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-white">
+          <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 lg:py-24">
+            <HeaderTwo>
+              Hand Crafted Websites
+            </HeaderTwo>
+            <p class="text-center text-2xl leading-relaxed mt-6 text-gray-800">
+              Our websites are 100% hand coded. This gives us full control over the design and performance of your site.
+            </p>
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-12">
+              <FeatureCheckmark title="Performance" description="A common issue with DIY website builders is that they are incredibly slow. Users leave a site if it takes longer than 3 seconds to load. Your website will score at least a 95 rating on Google’s web speed scores.">
+                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
+                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                  </svg>
+                </span>
+              </FeatureCheckmark>
+              <FeatureCheckmark title="Responsive" description="60% of web traffic is on mobile devices, so it is important for your site to look nice on all screen sizes. Your website will fit all device screen sizes so your clients can access it anywhere.">
+                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
+                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                </span>
+              </FeatureCheckmark>
+              <FeatureCheckmark title="SEO" description="Search engine optimization (SEO) is a set of best practices to help search engines (Google) rank a website for relavant searches. Your website will follow all of the modern SEO best practices.">
+                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
+                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </span>
+              </FeatureCheckmark>
             </div>
             <div class="pt-12 text-center">
               <ButtonDark>
