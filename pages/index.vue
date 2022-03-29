@@ -38,8 +38,8 @@
                   </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                  <nuxt-img class="h-full w-full object-cover hidden md:block" src="/hand-3.png" alt="People working on laptops" sizes="sm:100vw md:100vw lg:90vw" quality="80" format="webp" />
-                  <nuxt-img class="h-auto w-96 mx-auto block md:hidden" src="/sm-phone.png" alt="People working on laptops" sizes="sm:100vw md:100vw lg:90vw" quality="80" format="webp" />
+                  <nuxt-img width="563" height="811" class="h-full w-full object-cover hidden md:block" src="/hand-3.png" alt="People working on laptops" sizes="sm:100vw md:100vw lg:90vw" quality="80" format="webp" />
+                  <nuxt-img width="269" height="242" class="h-auto w-96 mx-auto block md:hidden" src="/sm-phone.png" alt="People working on laptops" sizes="sm:100vw md:100vw lg:90vw" quality="80" format="webp" />
                 </div>
               </div>
             </div>

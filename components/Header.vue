@@ -5,7 +5,7 @@
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <a href="#">
             <span class="sr-only">Webjoy</span>
-            <nuxt-img class="h-8 w-auto md:h-10" src="/webjoy-logo-black.svg" alt="Webjoy" />
+            <LogoBlack />
           </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -32,7 +32,7 @@
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
               <div>
-                <nuxt-img class="h-8 w-auto" src="/webjoy-logo-black.svg" alt="Webjoy" />
+                <LogoBlack />
               </div>
               <div class="-mr-2">
                 <button @click="showMobileMenu = false" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
