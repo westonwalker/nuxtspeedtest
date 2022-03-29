@@ -28,7 +28,7 @@
                   <HeaderOne>
                     <span class="block text-black">Get Your Business Website for $0 Upfront</span>
                   </HeaderOne>
-                  <p class="mt-6 max-w-lg mx-auto text-left text-lg lg:text-2xl text-black sm:max-w-3xl leading-relaxed">
+                  <p class="mt-6 mx-auto text-left text-lg lg:text-2xl text-black sm:max-w-3xl leading-relaxed">
                     Forget the page builders and WordPress - We deliver hand-coded websites with blazing speeds starting at $200/mo.
                   </p>
                   <div class="mt-6">
