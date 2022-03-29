@@ -7,7 +7,7 @@
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <a href="#">
             <span class="sr-only">Workflow</span>
-            <nuxt-img class="h-8 w-auto sm:h-10" src="/logo.svg" alt />
+            <nuxt-img class="h-8 w-auto sm:h-10" src="/logo.png" alt />
           </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -37,15 +37,10 @@
           </button>
         </div>
         <nav class="hidden md:flex space-x-10">
-          <NuxtLink to="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Home</NuxtLink>
-          <NuxtLink
-            to="/pricing"
-            class="text-base font-medium text-gray-500 hover:text-gray-900"
-          >Pricing</NuxtLink>
-          <NuxtLink
-            to="/contact"
-            class="text-base font-medium text-gray-500 hover:text-gray-900"
-          >Contact</NuxtLink>
+          <NuxtLink to="#" class="font-bold text-base text-black tracking-wide border-b-4 hover:border-black border-transparent">Services</NuxtLink>
+          <NuxtLink to="#" class="font-bold text-base text-black tracking-wide border-b-4 hover:border-black border-transparent">Latest Projects</NuxtLink>
+          <NuxtLink to="#" class="text-base font-bold text-black tracking-wide border-b-4 hover:border-black border-transparent">Pricing</NuxtLink>
+          <NuxtLink to="#" class="text-base font-bold text-black tracking-wide border-b-4 hover:border-black border-transparent">FAQs</NuxtLink>
         </nav>
       </div>
 

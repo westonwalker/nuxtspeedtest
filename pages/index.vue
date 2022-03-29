@@ -2,38 +2,42 @@
   <div>
     <div class="bg-white">
       <main>
+        <!-- <nuxt-img
+          class="h-full w-full object-cover"
+          src="/peopleworking.png"
+          alt="People working on laptops"
+          sizes="sm:100vw md:100vw lg:90vw"
+          quality="80"
+          format="webp"
+        />-->
         <!-- Hero section -->
-        <div class="relative">
-          <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+        <section class="relative">
+          <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
           <div class="max-w-[85rem] mx-auto sm:px-6 lg:px-8">
             <div class="relative shadow-xl sm:rounded-3xl sm:overflow-hidden">
               <div class="absolute inset-0">
-                <!-- <nuxt-img
-                  class="h-full w-full object-cover"
-                  src="/peopleworking.png"
-                  alt="People working on laptops"
-                  sizes="sm:100vw md:100vw lg:90vw"
-                  quality="80"
-                  format="webp"
-                />-->
                 <nuxt-img
                   class="h-full w-full object-cover"
-                  src="/radiant-gradient-3.svg"
-                  alt="People working on laptops"
+                  src="/radiant-gradient.svg"
+                  alt="Radiant background"
                 />
               </div>
               <div class="relative inline-flex pl-4sm:pl-16 lg:pl-24 items-center">
                 <div class="w-1/2 h-full pr-12">
                   <h1 class="text-left text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
                     <span
-                      class="block text-white"
-                      style="text-shadow: 1px 1px black"
+                      class="block text-black"
                     >Get Your Business Website for $0 Upfront</span>
                   </h1>
                   <p
-                    class="mt-6 max-w-lg mx-auto text-left text-2xl text-white sm:max-w-3xl leading-relaxed"
-                    style="text-shadow: 1px 1px black"
+                    class="mt-6 max-w-lg mx-auto text-left text-2xl text-black sm:max-w-3xl leading-relaxed"
                   >Forget the page builders and WordPress - We deliver hand-coded websites with blazing speeds starting at $200/mo.</p>
+                  <div class="pt-6">
+                    <a
+                      class="bg-white text-black px-6 py-4 text-xl rounded-md font-semibold shadow-solid-dark"
+                      href="#pricing"
+                    >See Plans</a>
+                  </div>
                 </div>
                 <div class="w-1/2">
                   <nuxt-img
@@ -48,57 +52,121 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <!-- Logo Cloud -->
-        <div class="bg-gray-100">
-          <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-            <p
-              class="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide"
-            >Trusted by over 5 very average small businesses</p>
-            <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <nuxt-img
-                  class="h-12"
-                  src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-                  alt="Tuple"
-                />
-              </div>
-              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <nuxt-img
-                  class="h-12"
-                  src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
-                  alt="Mirage"
-                />
-              </div>
-              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <nuxt-img
-                  class="h-12"
-                  src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-                  alt="StaticKit"
-                />
-              </div>
-              <div
-                class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1"
-              >
-                <nuxt-img
-                  class="h-12"
-                  src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-                  alt="Transistor"
-                />
-              </div>
-              <div
-                class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1"
-              >
-                <nuxt-img
-                  class="h-12"
-                  src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
-                  alt="Workcation"
-                />
-              </div>
+        <!-- This example requires Tailwind CSS v2.0+ -->
+        <section class="py-12 overflow-hidden md:py-20 lg:py-24">
+          <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <svg
+              class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2"
+              width="404"
+              height="404"
+              fill="none"
+              viewBox="0 0 404 404"
+              role="img"
+              aria-labelledby="svg-workcation"
+            >
+              <title id="svg-workcation">Workcation</title>
+              <defs>
+                <pattern
+                  id="ad119f34-7694-4c31-947f-5c9d249b21f3"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                </pattern>
+              </defs>
+              <rect width="404" height="404" fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)" />
+            </svg>
+
+            <div class="relative">
+              <blockquote class="mt-10">
+                <div class="max-w-3xl mx-auto text-center text-2xl text-black leading-relaxed">
+                  <p>&ldquo;Webjoy had my site live in 2 weeks. It’s the fastest way to get your business on the web and cost me $0 upfront to have it built.&rdquo;</p>
+                </div>
+                <footer class="mt-4">
+                  <div class="flex flex-col items-center justify-center">
+                    <div class="inline-flex w-full justify-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-10 w-10 text-yellow-400"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-10 w-10 text-yellow-400"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-10 w-10 text-yellow-400"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-10 w-10 text-yellow-400"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-10 w-10 text-yellow-400"
+                        viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                    </div>
+                    <div class="pt-4 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                      <div class="text-base font-medium text-gray-900">
+                        <span class="underline">Al Bragg</span>, Owner of Al Bragg Landshaping
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
             </div>
           </div>
-        </div>
+        </section>
+
+        <section class="bg-gray-100">
+          <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 lg:py-24">
+            <h1 class="text-black text-center text-4xl font-bold tracking-tight lg:text-5xl">
+              Website Design
+              <br />
+              <div class="pt-2">for Small Businesses</div>
+            </h1>
+            <div class="text-center text-2xl leading-relaxed mt-6 text-gray-800">
+              We specialize in website design and development for small businesses anywhere in the US. This means we understand the problems of building an online presence as a small business. Our prices and processes were built to solve these problems.
+            </div>
+            <div class="pt-6 text-center">
+              <a class="bg-black text-white px-6 py-4 text-xl rounded-md font-semibold shadow-solid-light"
+                href="#pricing">
+                See Plans
+              </a>
+            </div>
+          </div>
+        </section>
 
         <!-- Alternating Feature Sections -->
         <div class="relative pt-16 pb-32 overflow-hidden">
@@ -571,7 +639,7 @@
 export default {
   name: "IndexPage",
   head: {
-    title: 'Speed test - Home Page',
+    title: 'WebJoy',
     meta: [
       {
         hid: 'description',
