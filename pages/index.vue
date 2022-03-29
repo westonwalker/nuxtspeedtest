@@ -168,6 +168,7 @@
                       <PricingFeature description="Hosting fees included" />
                       <PricingFeature description="24/7 support" />
                       <PricingFeature description="Lifetime Support" />
+                      <PricingFeature description="2 Week Delivery" />
                     </ul>
                     <div class="mt-12 text-center">
                       <ButtonDark href="google.com">
