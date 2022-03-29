@@ -11,6 +11,7 @@ module.exports = {
       boxShadow: {
         'solid-dark': '8px 8px 0 0 rgb(0 0 0 / 80%)',
         'solid-light': '8px 8px 0 0 rgb(0 0 0 / 20%)',
+        'solid-dark-lg': '20px 20px 0 0 rgb(0 0 0 / 20%)',
       }
     }
   },

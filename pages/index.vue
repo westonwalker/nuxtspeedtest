@@ -23,31 +23,32 @@
               <div class="absolute inset-0">
                 <nuxt-img class="h-full w-full object-cover" src="/radiant-gradient.svg" alt="Radiant background" />
               </div>
-              <div class="relative inline-flex pl-4sm:pl-16 lg:pl-24 items-center">
-                <div class="w-1/2 h-full pr-12">
+              <div class="relative flex flex-col-reverse md:inline-flex md:flex-row px-8 md:px-0 md:pl-16 lg:pl-24 items-center">
+                <div class="w-full md:w-1/2 h-full md:pr-12 py-12">
                   <HeaderOne>
                     <span class="block text-black">Get Your Business Website for $0 Upfront</span>
                   </HeaderOne>
-                  <p class="mt-6 max-w-lg mx-auto text-left text-2xl text-black sm:max-w-3xl leading-relaxed">
+                  <p class="mt-6 max-w-lg mx-auto text-left text-lg lg:text-2xl text-black sm:max-w-3xl leading-relaxed">
                     Forget the page builders and WordPress - We deliver hand-coded websites with blazing speeds starting at $200/mo.
                   </p>
-                  <div class="pt-6">
-                    <ButtonLight>
+                  <div class="mt-6">
+                    <ButtonLight href="#pricing">
                       See Plans
                     </ButtonLight>
                   </div>
                 </div>
-                <div class="w-1/2">
-                  <nuxt-img class="h-full w-full object-cover" src="/hand-3.png" alt="People working on laptops" sizes="sm:100vw md:100vw lg:90vw" quality="80" format="webp" />
+                <div class="w-full md:w-1/2">
+                  <nuxt-img class="h-full w-full object-cover hidden md:block" src="/hand-3.png" alt="People working on laptops" sizes="sm:100vw md:100vw lg:90vw" quality="80" format="webp" />
+                  <nuxt-img class="h-auto w-96 mx-auto block md:hidden" src="/sm-phone.png" alt="People working on laptops" sizes="sm:100vw md:100vw lg:90vw" quality="80" format="webp" />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <!-- This example requires Tailwind CSS v2.0+ -->
-        <section class="py-12 overflow-hidden md:py-20 lg:py-24">
-          <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Testimonial -->
+        <section class="">
+          <InnerSection>
             <svg class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" role="img" aria-labelledby="svg-workcation">
               <title id="svg-workcation">Webjoy</title>
               <defs>
@@ -60,339 +61,200 @@
             <div class="relative">
               <Testimonial />
             </div>
-          </div>
+          </InnerSection>
         </section>
 
-        <section class="bg-gray-100">
-          <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 lg:py-24">
-            <HeaderTwo>
-              Website Design
-              <br />
-              <div class="pt-2">for Small Businesses</div>
-            </HeaderTwo>
-            <div class="text-center text-2xl leading-relaxed mt-6 text-gray-800">
-              We specialize in website design and development for small businesses anywhere in the US. Our plans start at $200 a month. No minimum contract. You own your domain and content. You are free to cancel anytime with no surprising fees or hassle.
+        <!-- About -->
+        <section class="bg-gray-100" id="about">
+          <InnerSection>
+            <div class="flex flex-col md:flex-row">
+              <div class="w-full md:w-2/5 md:pr-4">
+                <HeaderTwo class="text-left">
+                  Website Design
+                  <br />
+                  <div class="pt-2">for Small Businesses</div>
+                </HeaderTwo>
+                <p class="text-left text-lg lg:text-2xl leading-relaxed mt-6 text-gray-800">
+                  We specialize in website design and development for small businesses. Our plans start at $200 a month. No minimum contract. You own your domain and content. Cancel anytime with no surprising fees or hassle.
+                </p>
+              </div>
+              <div class="w-full md:w-3/5 md:pl-4 mt-8 md:mt-0">
+                <dl class="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-2 lg:gap-x-8">
+                  <ServiceFeature title="Web design and development" description="Includes over 30 hours of design, development, and testing." />
+                  <ServiceFeature title="24/7 support" description="A direct line to the lead developer. Call anytime." />
+                  <ServiceFeature title="Unlimited Site Edits" description="We will update your site content at anytime." />
+                  <ServiceFeature title="Hosting fees included" description="Hosting fees are baked into the monthly price." />
+                  <ServiceFeature title="Domain Registration" description="If you don't have a domain, we will help you get one." />
+                  <ServiceFeature title="Google setup" description="We will setup Google Analytics and Google My Business for you." />
+                </dl>
+              </div>
             </div>
-            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-12">
-              <FeatureCheckmark title="Performance" description="A common issue with DIY website builders is that they are incredibly slow. Users leave a site if it takes longer than 3 seconds to load. Your website will score at least a 95 rating on Google’s web speed scores.">
-                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
-                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                  </svg>
-                </span>
-              </FeatureCheckmark>
-              <FeatureCheckmark title="Responsive" description="60% of web traffic is on mobile devices, so it is important for your site to look nice on all screen sizes. Your website will fit all device screen sizes so your clients can access it anywhere.">
-                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
-                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                  </svg>
-                </span>
-              </FeatureCheckmark>
-              <FeatureCheckmark title="SEO" description="Search engine optimization (SEO) is a set of best practices to help search engines (Google) rank a website for relavant searches. Your website will follow all of the modern SEO best practices.">
-                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
-                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                </span>
-              </FeatureCheckmark>
-            </div>
-            <div class="pt-12 text-center">
-              <ButtonDark>
+            <div class="mt-16 text-center">
+              <ButtonDark href="#pricing">
                 See Plans
               </ButtonDark>
             </div>
-          </div>
+          </InnerSection>
         </section>
 
         <section class="bg-white">
-          <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 lg:py-24">
-            <HeaderTwo>
-              Hand Crafted Websites
+          <InnerSection>
+            <HeaderTwo class="text-left md:text-center">
+              Hand Crafted
             </HeaderTwo>
-            <p class="text-center text-2xl leading-relaxed mt-6 text-gray-800">
+            <p class="text-left md:text-center text-lg lg:text-2xl leading-relaxed mt-6 text-gray-800">
               Our websites are 100% hand coded. This gives us full control over the design and performance of your site.
             </p>
-            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-12">
-              <FeatureCheckmark title="Performance" description="A common issue with DIY website builders is that they are incredibly slow. Users leave a site if it takes longer than 3 seconds to load. Your website will score at least a 95 rating on Google’s web speed scores.">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">
+              <WebsiteFeature title="Performance" description="A major issue with DIY website builders is that they are incredibly slow. Users leave a site if it takes longer than 3 seconds to load. Your website will score at least a 95 on Google’s speed scores.">
                 <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
                   <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                   </svg>
                 </span>
-              </FeatureCheckmark>
-              <FeatureCheckmark title="Responsive" description="60% of web traffic is on mobile devices, so it is important for your site to look nice on all screen sizes. Your website will fit all device screen sizes so your clients can access it anywhere.">
+              </WebsiteFeature>
+              <WebsiteFeature title="Responsive" description="60% of web traffic is on mobile devices, so it is important for your site to look nice on all screen sizes. Your website will fit all device screen sizes so your clients can access it anywhere.">
                 <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
                   <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                   </svg>
                 </span>
-              </FeatureCheckmark>
-              <FeatureCheckmark title="SEO" description="Search engine optimization (SEO) is a set of best practices to help search engines (Google) rank a website for relavant searches. Your website will follow all of the modern SEO best practices.">
+              </WebsiteFeature>
+              <WebsiteFeature title="SEO" description="Search engine optimization (SEO) is a set of best practices to help search engines (Google) rank a website for relavant searches. Your website will follow all of the modern SEO best practices.">
                 <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
                   <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
                 </span>
-              </FeatureCheckmark>
+              </WebsiteFeature>
             </div>
             <div class="pt-12 text-center">
-              <ButtonDark>
+              <ButtonDark href="#pricing">
                 See Plans
               </ButtonDark>
             </div>
-          </div>
+          </InnerSection>
         </section>
 
-        <!-- Alternating Feature Sections -->
-        <div class="relative pt-16 pb-32 overflow-hidden">
-          <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"></div>
-          <div class="relative">
-            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-              <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-                <div>
-                  <div>
-                    <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
-                      <!-- Heroicon name: outline/inbox -->
-                      <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-                      </svg>
-                    </span>
-                  </div>
-                  <div class="mt-6">
-                    <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">Stay on top of customer support</h2>
-                    <p class="mt-4 text-lg text-gray-500">Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
-                    <div class="mt-6"></div>
-                  </div>
-                </div>
-                <div class="mt-8 border-t border-gray-200 pt-6">
-                  <blockquote>
+        <!-- Pricing -->
+        <section class="bg-[#e6feff]" id="pricing">
+          <InnerSection>
+            <div>
+              <HeaderTwo class="text-left md:text-center">
+                Let's Keep It Simple
+              </HeaderTwo>
+              <p class="text-left md:text-center text-lg lg:text-2xl leading-relaxed mt-6 text-gray-800">
+                No contracts, no surprises. Just simple, transparent pricing.
+              </p>
+            </div>
+            <div class="pt-10 relative lg:grid lg:grid-cols-7">
+              <div class="max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
+                <div class="relative z-10 rounded-lg shadow-2xl">
+                  <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
                     <div>
-                      <p class="text-base text-gray-500">&ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;</p>
-                    </div>
-                    <footer class="mt-3">
-                      <div class="flex items-center space-x-3">
-                        <div class="flex-shrink-0">
-                          <img class="h-6 w-6 rounded-full" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt />
-                        </div>
-                        <div class="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
+                      <h3 class="text-center text-3xl font-semibold text-gray-900 sm:-mx-6" id="tier-growth">Standard</h3>
+                      <div class="mt-4 flex items-center justify-center">
+                        <span class="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
+                          <span class="mt-2 mr-2 text-4xl font-medium"> $ </span>
+                          <span class="font-extrabold"> 200 </span>
+                        </span>
+                        <span class="text-2xl font-medium text-gray-500"> /month </span>
                       </div>
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-              <div class="mt-12 sm:mt-16 lg:mt-0">
-                <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg" alt="Inbox user interface" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mt-24">
-            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-              <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
-                <div>
-                  <div>
-                    <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
-                      <!-- Heroicon name: outline/sparkles -->
-                      <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                      </svg>
-                    </span>
+                    </div>
                   </div>
-                  <div class="mt-6">
-                    <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">Better understand your customers</h2>
-                    <p class="mt-4 text-lg text-gray-500">Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
-                    <div class="mt-6"></div>
+                  <div class="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-10 bg-gray-50 sm:px-24 sm:py-10">
+                    <ul role="list" class="space-y-4">
+                      <PricingFeature description="Unlimited Site Edits" />
+                      <PricingFeature description="Hosting fees included" />
+                      <PricingFeature description="24/7 support" />
+                      <PricingFeature description="Lifetime Support" />
+                    </ul>
+                    <div class="mt-12 text-center">
+                      <ButtonDark href="google.com">
+                        Schedule a Call
+                      </ButtonDark>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-                <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" alt="Customer profile user interface" />
+            </div>
+          </InnerSection>
+        </section>
+
+        <!-- Faq -->
+        <section class="bg-white" id="faq">
+          <InnerSection>
+            <div class="max-w-3xl mx-auto">
+              <div>
+                <HeaderTwo class="text-center">
+                  Frequently asked questions
+                </HeaderTwo>
+              </div>
+              <dl class="mt-6 space-y-6 divide-y divide-gray-800">
+                <Faq question="How many pages do I get with my site?">
+                  Our standard $0 down, $200/month package includes 5 pages. These are typically Home, About, Services, Portfolio, Contact but can be adjusted if it doesn't make sense for your industry.
+                </Faq>
+                <Faq question="What if I want more than 5 pages?">
+                  Extra pages are a one time, $150 fee.
+                </Faq>
+                <Faq question="Do I get a contact form with my site?">
+                  Yes, the contact page includes a contact form. You will receive an email notification when a customer fills it out.
+                </Faq>
+                <Faq question="Is it really unlimited site edits?">
+                  Yes! We will update your content for free for any of the 5 original pages that were created. If you want to create a new page, it is a $150 one time fee.
+                </Faq>
+                <Faq question="How fast will my site be done?">
+                  A typical site from scratch will be done and live in 2 weeks.
+                </Faq>
+                <Faq question="Are there any contracts to use your service?">
+                  There are no contracts or commitments to use Webjoy. You can cancel anytime you wish.
+                </Faq>
+                <Faq question="I don't own a URL for my business. Can you help?">
+                  Yes, part of the service you get with Webjoy is helping purchase a URL.
+                </Faq>
+              </dl>
+            </div>
+          </InnerSection>
+        </section>
+
+        <!-- Contact -->
+        <section class="bg-[#fffeda]" id="contact">
+          <InnerSection>
+            <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
+              <div class="pb-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:pb-24 xl:pr-12">
+                <div class="mx-auto">
+                  <HeaderTwo>Get in touch</HeaderTwo>
+                  <p class="mt-3 text-lg leading-6 text-gray-500">Have questions? Fill out our form and we will get back to you as soon as possible. </p>
+                </div>
+              </div>
+              <div class="bg-white py-8 px-4 sm:px-6 lg:col-span-3 lg:py-12 lg:px-8 xl:pl-12 rounded-lg shadow-2xl">
+                <div class="max-w-lg mx-auto lg:max-w-none">
+                  <form name="contact" method="POST" data-netlify="true" class="grid grid-cols-1 gap-y-6">
+                    <div>
+                      <label for="full-name" class="sr-only">Full name</label>
+                      <input required type="text" name="full-name" id="full-name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Full name">
+                    </div>
+                    <div>
+                      <label for="email" class="sr-only">Email</label>
+                      <input required id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Email">
+                    </div>
+                    <div>
+                      <label for="phone" class="sr-only">Phone</label>
+                      <input required type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Phone">
+                    </div>
+                    <div>
+                      <label for="message" class="sr-only">Message</label>
+                      <textarea required minlength="10" id="message" name="message" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" placeholder="Message"></textarea>
+                    </div>
+                    <div>
+                      <button type="submit" class="bg-black text-white px-6 py-4 text-base md:text-xl rounded-md font-semibold shadow-solid-light">Submit</button>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <!-- Gradient Feature Section -->
-        <div class="bg-gradient-to-r from-purple-800 to-indigo-700">
-          <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-            <h2 class="text-3xl font-extrabold text-white tracking-tight">Inbox support built for efficiency</h2>
-            <p class="mt-4 max-w-3xl text-lg text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis in.</p>
-            <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <!-- Heroicon name: outline/inbox -->
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Unlimited Inboxes</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-                </div>
-              </div>
-
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <!-- Heroicon name: outline/users -->
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Manage Team Members</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-                </div>
-              </div>
-
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <!-- Heroicon name: outline/trash -->
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Spam Report</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-                </div>
-              </div>
-
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <!-- Heroicon name: outline/pencil-alt -->
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Compose in Markdown</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-                </div>
-              </div>
-
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <!-- Heroicon name: outline/document-report -->
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Team Reporting</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-                </div>
-              </div>
-
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <!-- Heroicon name: outline/reply -->
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Saved Replies</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-                </div>
-              </div>
-
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <!-- Heroicon name: outline/chat-alt -->
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Email Commenting</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-                </div>
-              </div>
-
-              <div>
-                <div>
-                  <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <!-- Heroicon name: outline/heart -->
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                    </svg>
-                  </span>
-                </div>
-                <div class="mt-6">
-                  <h3 class="text-lg font-medium text-white">Connect with Customers</h3>
-                  <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Stats section -->
-        <div class="relative bg-gray-900">
-          <div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
-            <div class="h-full w-full xl:grid xl:grid-cols-2">
-              <div class="h-full xl:relative xl:col-start-2">
-                <nuxt-img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100" alt="People working on laptops" />
-                <div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"></div>
-              </div>
-            </div>
-          </div>
-          <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
-            <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-              <h2 class="text-sm font-semibold tracking-wide uppercase">
-                <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
-              </h2>
-              <p class="mt-3 text-3xl font-extrabold text-white">Get actionable data that will help grow your business</p>
-              <p class="mt-5 text-lg text-gray-300">Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.</p>
-              <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
-                <p>
-                  <span class="block text-2xl font-bold text-white">8K+</span>
-                  <span class="mt-1 block text-base text-gray-300">
-                    <span class="font-medium text-white">Companies</span> use laoreet amet lacus nibh integer quis.
-                  </span>
-                </p>
-
-                <p>
-                  <span class="block text-2xl font-bold text-white">25K+</span>
-                  <span class="mt-1 block text-base text-gray-300">
-                    <span class="font-medium text-white">Countries around the globe</span> lacus nibh integer quis.
-                  </span>
-                </p>
-
-                <p>
-                  <span class="block text-2xl font-bold text-white">98%</span>
-                  <span class="mt-1 block text-base text-gray-300">
-                    <span class="font-medium text-white">Customer satisfaction</span> laoreet amet lacus nibh integer quis.
-                  </span>
-                </p>
-
-                <p>
-                  <span class="block text-2xl font-bold text-white">12M+</span>
-                  <span class="mt-1 block text-base text-gray-300">
-                    <span class="font-medium text-white">Issues resolved</span> lacus nibh integer quis.
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+          </InnerSection>
+        </section>
       </main>
     </div>
   </div>
@@ -411,7 +273,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "This is a speed test for nuxtjs",
+        content: "Small business website for $0 upfront.",
       },
     ],
   },
