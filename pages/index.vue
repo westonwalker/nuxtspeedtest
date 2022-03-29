@@ -231,7 +231,7 @@
               <div class="bg-white py-8 px-4 sm:px-6 lg:col-span-3 lg:py-12 lg:px-8 xl:pl-12 rounded-lg shadow-2xl">
                 <div class="max-w-lg mx-auto lg:max-w-none">
                   <form name="contact" method="POST" netlify class="grid grid-cols-1 gap-y-6" action="/">
-                    <input type="hidden" name="form-name" value="contact" />
+                    <input type="hidden" name="form-name" value="contact">
                     <div>
                       <label for="full-name" class="sr-only">Full name</label>
                       <input required type="text" name="full-name" id="full-name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Full name">
