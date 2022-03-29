@@ -1,7 +1,7 @@
 <template>
   <blockquote class="">
     <div class="max-w-3xl mx-auto text-center text-lg md:text-2xl text-black leading-relaxed">
-      <p>&ldquo;Webjoy had my site live in 2 weeks. It’s the fastest way to get your business on the web and cost me $0 upfront to have it built.&rdquo;</p>
+      <p>&ldquo;Webjoy had my site live in 2 weeks. It’s the fastest way to get your business on the web.&rdquo;</p>
     </div>
     <footer class="mt-4">
       <div class="flex flex-col items-center justify-center">
