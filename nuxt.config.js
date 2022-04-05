@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'speedtest',
+    title: 'Al Bragg Landshaping',
     htmlAttrs: {
       lang: 'en'
     },

@@ -1,284 +1,210 @@
 <template>
   <div>
-    <div class="bg-white">
-      <main>
-        <!-- <nuxt-img
-          class="h-full w-full object-cover"
-          src="/peopleworking.png"
-          alt="People working on laptops"
-          sizes="sm:100vw md:100vw lg:90vw"
-          quality="80"
-          format="webp"
-        />-->
-        <!--
-        #A2ECEF
+    <section>
+      <Testimonial review="Al did some work for us doing riprap erosion control on our lakefront property. He did a great job, was professional, and we are very happy with the result." reviewer="Amy Croasdale" />
+    </section>
 
-        #FDF6B3
-        -->
-        <!-- Hero section -->
-        <section class="relative">
-          <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
-          <div class="max-w-[85rem] mx-auto sm:px-6 lg:px-8">
-            <div class="relative shadow-xl sm:rounded-3xl sm:overflow-hidden">
-              <div class="absolute inset-0">
-                <nuxt-img class="h-full w-full object-cover" src="/radiant-gradient.svg" alt="Radiant background" />
+    <section id="about">
+      <div class="py-20 bg-gray-50 radius-for-skewed">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="flex flex-wrap items-center -mx-4">
+            <div class="mb-12 lg:mb-0 w-full lg:w-1/2 px-4">
+              <div class="max-w-md">
+                <span class="text-orange-500 font-bold">About Us</span>
+                <h2 class="mb-6 text-4xl lg:text-5xl font-bold font-heading">Build &amp; Launch without problems</h2>
+                <p class="text-gray-500 leading-loose">For over 40 years, clients in the Fulton and Tri-county areas have trusted their land shaping and custom lawn building needs to one of the most recognized names in the business: Al Bragg.</p>
+                <p class="text-gray-500 leading-loose">Offering a wide variety of services, from constructing new lawns to correcting poor drainages, Al Bragg Co. offers free on-site estimates to clients who value skills that can only be acquired with decades of experience. Residential and commercial clients alike trust Al Bragg for jobs of all sizes and budgets. </p>
               </div>
-              <div class="relative flex flex-col-reverse md:inline-flex md:flex-row px-8 md:px-0 md:pl-16 lg:pl-24 items-center">
-                <div class="w-full md:w-1/2 h-full md:pr-12 py-12">
-                  <HeaderOne>
-                    <span class="block text-black">Get Your Business Website for $0 Upfront</span>
-                  </HeaderOne>
-                  <p class="mt-6 mx-auto text-left text-lg lg:text-2xl text-black sm:max-w-3xl leading-relaxed">
-                    Forget the page builders and WordPress - We deliver hand-coded websites with blazing speeds starting at $200/mo.
-                  </p>
-                  <div class="mt-10">
-                    <ButtonLight href="#pricing">
-                      See Plans
-                    </ButtonLight>
-                  </div>
-                </div>
-                <div class="w-full md:w-1/2">
-                  <nuxt-img width="563" height="811" class="h-full w-full object-cover hidden md:block" src="/hand-3.png" alt="People working on laptops" sizes="sm:100vw md:100vw lg:90vw" quality="80" format="webp" />
-                  <nuxt-img width="269" height="242" class="h-auto w-96 mx-auto block md:hidden" src="/sm-phone.png" alt="People working on laptops" sizes="sm:100vw md:100vw lg:90vw" quality="80" format="webp" />
-                </div>
+            </div>
+            <div class="flex flex-wrap items-center w-full lg:w-1/2 px-4">
+              <div class="mb-6 w-full lg:w-1/2 px-3">
+                <img class="mb-6 w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80" alt="">
+                <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1469827160215-9d29e96e72f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1052&amp;q=80" alt="">
+              </div>
+              <div class="w-full lg:w-1/2 px-3">
+                <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1605201100110-1f07883d2882?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80" alt="">
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
 
-        <!-- Testimonial -->
-        <section class="">
-          <InnerSection>
-            <svg class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" role="img" aria-labelledby="svg-workcation">
-              <title id="svg-workcation">Webjoy</title>
-              <defs>
-                <pattern id="ad119f34-7694-4c31-947f-5c9d249b21f3" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                  <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-                </pattern>
-              </defs>
-              <rect width="404" height="404" fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)" />
-            </svg>
-            <div class="relative">
-              <Testimonial />
+    <section>
+      <Testimonial review="Al did our final grade and seeded our grass on a new construction. The grade looks great and was done fast after agreeing to the bid. Al is very professional and easy to work with. Definitely recommend." reviewer="Seth Broq" />
+    </section>
+
+    <section id="services">
+      <div class="py-20 bg-gray-50 radius-for-skewed">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="mb-16 max-w-md mx-auto text-center">
+            <span class="text-orange-500 font-bold">Dolor sit amet consectutar</span>
+            <h2 class="text-4xl md:text-5xl font-bold">Build &amp; Launch without problems</h2>
+          </div>
+          <div class="flex flex-wrap -mx-4">
+            <div class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/4 px-4">
+              <span class="mb-4 md:mb-6 inline-block bg-orange-100 p-3 text-orange-400 rounded">
+                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor">
+                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+                </svg>
+              </span>
+              <h4 class="mb-4 text-2xl font-bold font-heading">Lorem ipsum dolor sit amet consectutar</h4>
+              <p class="text-gray-500 leading-loose">Fusce quam tellus, placerat eu metus ut, viverra aliquet purus. Suspendisse potenti. Nulla non nibh feugiat.</p>
             </div>
-          </InnerSection>
-        </section>
+            <div class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/4 px-4">
+              <span class="mb-4 md:mb-6 inline-block bg-orange-100 p-3 text-orange-400 rounded">
+                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </span>
+              <h4 class="mb-4 text-2xl font-bold font-heading">Ut congue nec leo eget aliquam</h4>
+              <p class="text-gray-500 leading-loose">Ut tempus tellus ac nisi vestibulum tempus. Nunc tincidunt lectus libero, ac ultricies augue elementum at.</p>
+            </div>
+            <div class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/4 px-4">
+              <span class="mb-4 md:mb-6 inline-block bg-orange-100 p-3 text-orange-400 rounded">
+                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+              </span>
+              <h4 class="mb-4 text-2xl font-bold font-heading">Proin fringilla eleifend justo pellentesque</h4>
+              <p class="text-gray-500 leading-loose">Donec ut ligula nunc. Mauris blandit vel est et facilisis. Integer sapien felis, aliquet at posuere et, porttitor quis ligula.</p>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+              <span class="mb-4 md:mb-6 inline-block bg-orange-100 p-3 text-orange-400 rounded">
+                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                  <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path>
+                </svg>
+              </span>
+              <h4 class="mb-4 text-2xl font-bold font-heading">Morbi sagittis ligula sit amet elit maximus</h4>
+              <p class="text-gray-500 leading-loose">Duis ut facilisis orci. Morbi lacinia nunc a augue eleifend, sed placerat ex faucibus. Duis ante arcu, pretium ac luctus vulputate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- About -->
-        <section class="bg-gray-100" id="about">
-          <InnerSection>
-            <div class="flex flex-col md:flex-row">
-              <div class="w-full md:w-2/5 md:pr-4">
-                <HeaderTwo class="text-left">
-                  Website Design
-                  <br />
-                  <div class="pt-2">for Small Businesses</div>
-                </HeaderTwo>
-                <p class="text-left text-lg lg:text-2xl leading-relaxed mt-6 text-gray-800">
-                  We specialize in website design and development for small businesses. Our plans start at $200 a month. No minimum contract. You own your domain and content. Cancel anytime with no surprising fees or hassle.
-                </p>
+    <section>
+      <Testimonial review="Al Bragg came out and leveled, seeded my yard where I had eight trees removed. He did a great job and I am very pleased with the way it turned out. He is friendly, reasonable, and I would hire him to do work for me again. Great Job Al and thank you again." reviewer="Sheila Raschert" />
+    </section>
+
+    <section id="projects">
+      <div class="py-20 bg-gray-50 radius-for-skewed">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="mb-8 md:mb-16 max-w-lg mx-auto text-center">
+            <span class="text-orange-500 font-bold">Projects</span>
+            <h2 class="mb-6 text-4xl lg:text-5xl font-bold font-heading">Latest Projects</h2>
+            <p class="text-gray-500 leading-loose">Check out what we have been working on recently.</p>
+          </div>
+          <div class="flex flex-wrap mb-8 -mx-4 justify-center">
+            <div class="w-full md:w-1/2 lg:w-1/4 mb-8 px-4">
+              <div class="relative mx-auto h-64 w-full rounded-lg">
+                <img class="relative h-full w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80" alt="">
+                <div class="absolute inset-0 bg-gray-900 opacity-50 rounded-lg"></div>
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <a class="inline-block py-2 px-4 border-2 border-gray-400 hover:border-white bg-transparent text-gray-50 hover:bg-white hover:text-gray-900 transition duration-200 rounded-l-xl rounded-t-xl font-bold leading-loose" href="#">View Project</a>
+                </div>
               </div>
-              <div class="w-full md:w-3/5 md:pl-4 mt-8 md:mt-0">
-                <dl class="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-2 lg:gap-x-8">
-                  <ServiceFeature title="Web design and development" description="Includes over 30 hours of design, development, and testing." />
-                  <ServiceFeature title="24/7 support" description="A direct line to the lead developer. Call anytime." />
-                  <ServiceFeature title="Unlimited Site Edits" description="We will update your site content at anytime." />
-                  <ServiceFeature title="Hosting fees included" description="Hosting fees are baked into the monthly price." />
-                  <ServiceFeature title="Domain Registration" description="If you don't have a domain, we will help you get one." />
-                  <ServiceFeature title="Google setup" description="We will setup Google Analytics and Google My Business for you." />
-                </dl>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/4 mb-8 px-4">
+              <div class="relative mx-auto h-64 w-full rounded-lg">
+                <img class="relative h-full w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80" alt="">
+                <div class="absolute inset-0 bg-gray-900 opacity-50 rounded-lg"></div>
+                <div class="absolute inset-0 flex items-center justify-center"><a class="inline-block py-2 px-4 border-2 border-gray-400 hover:border-white bg-transparent text-gray-50 hover:bg-white hover:text-gray-900 transition duration-200 rounded-l-xl rounded-t-xl font-bold leading-loose" href="#">View Project</a></div>
               </div>
             </div>
-            <div class="mt-16 text-center">
-              <ButtonDark href="#pricing">
-                See Plans
-              </ButtonDark>
-            </div>
-          </InnerSection>
-        </section>
+          </div>
 
-        <section class="bg-white">
-          <InnerSection>
-            <HeaderTwo class="text-left md:text-center">
-              Hand Crafted
-            </HeaderTwo>
-            <p class="text-left md:text-center text-lg lg:text-2xl leading-relaxed mt-6 text-gray-800">
-              Our websites are 100% hand coded. This gives us full control over the design and performance of your site.
-            </p>
-            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">
-              <WebsiteFeature title="Performance" description="A major issue with DIY website builders is that they are incredibly slow. Users leave a site if it takes longer than 3 seconds to load. Your website will score at least a 95 on Google’s speed scores.">
-                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
-                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                  </svg>
-                </span>
-              </WebsiteFeature>
-              <WebsiteFeature title="Responsive" description="60% of web traffic is on mobile devices, so it is important for your site to look nice on all screen sizes. Your website will fit all device screen sizes so your clients can access it anywhere.">
-                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
-                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                  </svg>
-                </span>
-              </WebsiteFeature>
-              <WebsiteFeature title="SEO" description="Search engine optimization (SEO) is a set of best practices to help search engines (Google) rank a website for relavant searches. Your website will follow all of the modern SEO best practices.">
-                <span class="inline-flex items-center justify-center p-3 bg-gradient-to-br from-[#A2ECEF] to-[#FDF6B3] rounded-md shadow-lg">
-                  <svg class="h-8 w-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                </span>
-              </WebsiteFeature>
-            </div>
-            <div class="pt-12 text-center">
-              <ButtonDark href="#pricing">
-                See Plans
-              </ButtonDark>
-            </div>
-          </InnerSection>
-        </section>
+        </div>
+      </div>
+    </section>
 
-        <!-- Pricing -->
-        <section class="bg-[#e6feff]" id="pricing">
-          <InnerSection>
-            <div>
-              <HeaderTwo class="text-left md:text-center">
-                Let's Keep It Simple
-              </HeaderTwo>
-              <p class="text-left md:text-center text-lg lg:text-2xl leading-relaxed mt-6 text-gray-800">
-                No contracts, no surprises. Just simple, transparent pricing.
-              </p>
-            </div>
-            <div class="pt-10 relative lg:grid lg:grid-cols-7">
-              <div class="md:max-w-lg mx-auto lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
-                <div class="relative z-10 rounded-lg shadow-2xl">
-                  <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
-                    <div>
-                      <h3 class="text-center text-3xl font-semibold text-gray-900 sm:-mx-6" id="tier-growth">Standard</h3>
-                      <div class="mt-4 flex items-center justify-center">
-                        <span class="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
-                          <span class="mt-2 mr-2 text-4xl font-medium"> $ </span>
-                          <span class="font-extrabold"> 200 </span>
-                        </span>
-                        <span class="text-2xl font-medium text-gray-500"> /month </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-10 bg-gray-50 sm:px-24 sm:py-10">
-                    <ul role="list" class="space-y-4">
-                      <PricingFeature description="Unlimited Site Edits" />
-                      <PricingFeature description="Hosting fees included" />
-                      <PricingFeature description="24/7 support" />
-                      <PricingFeature description="Lifetime Support" />
-                      <PricingFeature description="2 Week Delivery" />
-                    </ul>
-                    <div class="mt-12 text-center">
-                      <ButtonDark href="google.com">
-                        Schedule a Call
-                      </ButtonDark>
-                    </div>
+    <section>
+      <Testimonial review="Al did a fantastic job on my driveway. He leveled it out and then put new white rock down. Very professional and wonderful job." reviewer="Linda Kocher" />
+    </section>
+
+    <section id="contact">
+      <div class="py-20 bg-gray-50 radius-for-skewed">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="mb-12">
+            <h2 class="text-4xl lg:text-5xl font-bold font-heading">Get a Quote Today</h2>
+            <p class="text-gray-500 leading-loose max-w-md">For any inquiries, questions or commendations, please call: 309.224.9310 or fill out the following form</p>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2 mb-16 lg:mb-0">
+              <div class="flex flex-wrap">
+                <div class="mb-12 w-full md:w-1/2 lg:w-1/2">
+                  <h3 class="mb-2 text-3xl lg:text-4xl font-bold">Location</h3>
+                  <p class="text-gray-400">Mapleton, IL</p>
+                  <p class="text-gray-400"> 61547</p>
+                </div>
+                <div class="mb-12 w-full md:w-1/2">
+                  <h3 class="mb-2 text-3xl lg:text-4xl font-bold">Contacts</h3>
+                  <p class="text-gray-400">albragglandshaping@gmail.com</p>
+                  <p class="text-gray-400">309.224.9310</p>
+                </div>
+                <div class="w-full md:w-1/3 lg:w-full">
+                  <h3 class="mb-2 text-3xl lg:text-4xl font-bold">Socials</h3>
+                  <div class="flex">
+                    <a class="mr-3" href="#">
+                      <Facebook />
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-          </InnerSection>
-        </section>
+            <div class="w-full lg:w-1/2">
+              <div class="max-w-md lg:mx-auto">
+                <form action="">
+                  <div class="mb-4 text-sm">
+                    <span class="mr-4 font-semibold">Quotes and Inquiries</span>
+                    <label class="mr-4">
 
-        <!-- Faq -->
-        <section class="bg-white" id="faq">
-          <InnerSection>
-            <div class="max-w-3xl mx-auto">
-              <div>
-                <HeaderTwo class="text-center">
-                  Frequently asked questions
-                </HeaderTwo>
-              </div>
-              <dl class="mt-6 space-y-6 divide-y divide-gray-800">
-                <Faq question="How many pages do I get with my site?">
-                  Our standard $0 down, $200/month package includes 5 pages. These are typically Home, About, Services, Portfolio, Contact but can be adjusted if it doesn't make sense for your industry.
-                </Faq>
-                <Faq question="What if I want more than 5 pages?">
-                  Extra pages are a one time, $150 fee.
-                </Faq>
-                <Faq question="Do I get a contact form with my site?">
-                  Yes, the contact page includes a contact form. You will receive an email notification when a customer fills it out.
-                </Faq>
-                <Faq question="Is it really unlimited site edits?">
-                  Yes! We will update your content for free for any of the 5 original pages that were created. If you want to create a new page, it is a $150 one time fee.
-                </Faq>
-                <Faq question="How fast will my site be done?">
-                  A typical site from scratch will be done and live in 2 weeks.
-                </Faq>
-                <Faq question="Are there any contracts to use your service?">
-                  There are no contracts or commitments to use Webjoy. You can cancel anytime you wish.
-                </Faq>
-                <Faq question="I don't own a URL for my business. Can you help?">
-                  Yes, part of the service you get with Webjoy is helping purchase a URL.
-                </Faq>
-              </dl>
-            </div>
-          </InnerSection>
-        </section>
+                    </label>
+                    <label>
 
-        <!-- Contact -->
-        <section class="bg-[#fffeda]" id="contact">
-          <InnerSection>
-            <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
-              <div class="pb-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:pb-24 xl:pr-12">
-                <div class="mx-auto">
-                  <HeaderTwo>Get in touch</HeaderTwo>
-                  <p class="mt-3 text-lg leading-6 text-gray-500">Have questions? Fill out our form and we will get back to you as soon as possible. </p>
-                </div>
-              </div>
-              <div class="bg-white py-8 px-4 sm:px-6 lg:col-span-3 lg:py-12 lg:px-8 xl:pl-12 rounded-lg shadow-2xl">
-                <div class="max-w-lg mx-auto lg:max-w-none">
-                  <form name="contact" method="POST" netlify class="grid grid-cols-1 gap-y-6" action="/">
-                    <input type="hidden" name="form-name" value="contact">
-                    <div>
-                      <label for="full-name" class="sr-only">Full name</label>
-                      <input required type="text" name="full-name" id="full-name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Full name">
-                    </div>
-                    <div>
-                      <label for="email" class="sr-only">Email</label>
-                      <input required id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Email">
-                    </div>
-                    <div>
-                      <label for="phone" class="sr-only">Phone</label>
-                      <input required type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Phone">
-                    </div>
-                    <div>
-                      <label for="message" class="sr-only">Message</label>
-                      <textarea required minlength="10" id="message" name="message" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" placeholder="Message"></textarea>
-                    </div>
-                    <div>
-                      <button type="submit" class="bg-black text-white px-6 py-4 text-base md:text-xl rounded-md font-semibold shadow-solid-light">Submit</button>
-                    </div>
-                  </form>
-                </div>
+                    </label>
+                  </div>
+                  <div class="mb-4">
+                    <input class="w-full p-4 text-sm font-semibold leading-none bg-white rounded outline-none" type="text" placeholder="Name">
+                  </div>
+                  <div class="mb-4">
+                    <input class="w-full p-4 text-sm font-semibold leading-none bg-white rounded outline-none" type="tel" placeholder="309-xxx-xxxx">
+                  </div>
+                  <div class="mb-4"><textarea class="w-full h-24 p-4 text-sm font-semibold leading-none resize-none bg-white rounded outline-none" type="text" placeholder="Message..."></textarea></div>
+                  <div class="mb-4">
+
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <label>
+
+                    </label>
+                    <button class="inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-orange-500 hover:bg-orange-600 text-gray-50 font-bold leading-loose transition duration-200">Submit</button>
+                  </div>
+                </form>
               </div>
             </div>
-          </InnerSection>
-        </section>
-      </main>
-    </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </template>
 
 <script>
-import Testimonial from "../components/Testimonial.vue";
-import Header1 from "../components/HeaderTwo.vue";
-import ButtonLight from "../components/ButtonLight.vue";
-import ButtonDark from "../components/ButtonDark.vue";
 export default {
   name: "IndexPage",
   head: {
-    title: "WebJoy",
+    title: "Al Bragg Landshaping - Excavating, Lawns, Dirtwork",
     meta: [
       {
         hid: "description",
         name: "description",
-        content: "Small business website for $0 upfront.",
+        content:
+          "Al Bragg has over 40 years of experience in landscaping in Peoria, Fulton, Tazewell, and Woodford counties. We provide free quotes and services including - Dirt Work, Excavating, Erosion control, Seeding new lawns, Forestry Mulching and more.",
       },
     ],
   },
-  components: { Testimonial, Header1, ButtonLight, ButtonDark },
 };
 </script>

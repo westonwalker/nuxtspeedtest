@@ -1,70 +1,38 @@
 <template>
-  <header>
-    <div class="relative bg-white">
-      <div class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:space-x-10 lg:px-8">
-        <div class="flex justify-start lg:w-0 lg:flex-1">
-          <a href="#">
-            <span class="sr-only">Webjoy</span>
-            <LogoBlack />
-          </a>
-        </div>
-        <div class="-mr-2 -my-2 md:hidden">
-          <button @click="showMobileMenu = true" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
-            <span class="sr-only">Open menu</span>
-            <!-- Heroicon name: outline/menu -->
-            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
-        </div>
-        <nav class="hidden md:flex space-x-10">
-          <NuxtLink to="#about" class="font-bold text-base text-black border-b-4 hover:border-black border-transparent">Benefits</NuxtLink>
-          <NuxtLink to="#pricing" class="font-bold text-base text-black border-b-4 hover:border-black border-transparent">Pricing</NuxtLink>
-          <NuxtLink to="#faq" class="font-bold text-base text-black border-b-4 hover:border-black border-transparent">FAQs</NuxtLink>
-          <NuxtLink to="#contact" class="font-bold text-base text-black border-b-4 hover:border-black border-transparent">Contact</NuxtLink>
-        </nav>
-      </div>
-      <!--
-        Mobile menu, show/hide based on mobile menu state.
-      -->
-      <div v-if="showMobileMenu" class="absolute z-30 top-0 inset-x-0 p-2 md:hidden">
-        <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-          <div class="pt-5 pb-6 px-5">
-            <div class="flex items-center justify-between">
-              <div>
-                <LogoBlack />
+  <section class="relative bg-gray-50">
+    <Nav />
+    <div class="relative pt-12 lg:pt-20 pb-20 z-10">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full lg:w-1/2 px-4 mb-12 lg:mb-0 flex items-center">
+            <div class="w-full text-center lg:text-left">
+              <div class="max-w-md mx-auto lg:mx-0">
+                <h2 class="mb-3 text-4xl lg:text-5xl font-bold font-heading">
+                  <span class="text-orange-500">Over 40 Years of</span>
+                  <span>Landscaping Experience</span>
+                </h2>
               </div>
-              <div class="-mr-2">
-                <button @click="showMobileMenu = false" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                  <span class="sr-only">Close menu</span>
-                  <!-- Heroicon name: outline/x -->
-                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
+              <div class="max-w-sm mx-auto lg:mx-0">
+                <p class="mb-6 text-gray-400 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur nisl sodales egestas lobortis.</p>
+                <div>
+                  <a class="inline-block mb-3 lg:mb-0 lg:mr-3 w-full lg:w-auto py-2 px-6 leading-loose bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-l-xl rounded-t-xl transition duration-200" href="#contact">Get a Quote</a>
+                  <a class="inline-block w-full lg:w-auto py-2 px-6 leading-loose font-semibold bg-white hover:bg-gray-50 rounded-l-xl rounded-t-xl transition duration-200" href="#about">About Us</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="py-6 px-5">
-            <div class="grid grid-cols-2 gap-4">
-              <NuxtLink to="#about" class="text-base font-medium">Benefits</NuxtLink>
-              <NuxtLink to="#pricing" class="text-base font-medium">Pricing</NuxtLink>
-              <NuxtLink to="#faq" class="text-base font-medium">FAQs</NuxtLink>
-              <NuxtLink to="#contact" class="text-base font-medium">Contact</NuxtLink>
+          <div class="w-full lg:w-1/2 px-4">
+            <div class="flex flex-wrap lg:mb-4 lg:ml-6">
+              <img class="w-full md:w-1/2 lg:w-1/3 h-64 p-2 object-cover rounded-3xl lg:rounded-br-none" src="https://images.unsplash.com/photo-1557804483-ef3ae78eca57?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=941&amp;q=80" alt="">
+              <img class="w-full md:w-1/2 lg:w-2/3 h-64 p-2 object-cover rounded-3xl lg:rounded-bl-none" src="https://images.unsplash.com/photo-1559136560-16ad036d85d3?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80" alt="">
+            </div>
+            <div class="flex flex-wrap lg:mb-4 lg:mr-6">
+              <img class="w-full md:w-1/2 lg:w-2/3 h-64 p-2 object-cover rounded-3xl lg:rounded-br-none" src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=967&amp;q=80" alt="">
+              <img class="w-full md:w-1/2 lg:w-1/3 h-64 p-2 object-cover rounded-3xl lg:rounded-bl-none" src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1190&amp;q=80" alt="">
             </div>
           </div>
         </div>
       </div>
     </div>
-  </header>
+  </section>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      showMobileMenu: false,
-    };
-  },
-};
-</script>
